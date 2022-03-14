@@ -1,0 +1,28 @@
+{
+  "name": "http-filter",
+  "version": "1.0.0",
+  "description": "A filter is an object that performs filtering tasks on either the request to a resource,or on the response from a resource, or both.",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cloudgyb/http-filter"
+  },
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "keywords": [
+    "http filter",
+    "http-filter",
+    "request filter",
+    "request-filter",
+    "req filter",
+    "req-filter",
+    "http",
+    "filter"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ant-path-matcher": "^0.0.5"
+  }
+}
