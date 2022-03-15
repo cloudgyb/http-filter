@@ -6,7 +6,7 @@ resource, or both.
 ## Install
 
 ```shell
-npm i http-filter
+npm i @cloudgyb/http-filter
 ```
 
 ## Usage
