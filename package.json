@@ -2,7 +2,7 @@
   "name": "@cloudgyb/http-filter",
   "version": "1.0.1",
   "homepage": "https://github.com/cloudgyb/http-filter",
-  "description": "A filter is an object that performs filtering tasks on either the request to a resource,or on the response from a resource, or both.",
+  "description": "HTTP request and response filter for NodeJS.It is an implementation of the filter design pattern.",
   "main": "src/index.js",
   "repository": {
     "type": "git",
