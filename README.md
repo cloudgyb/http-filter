@@ -1,8 +1,16 @@
 # Http-filter
 
-A filter is an object that performs filtering tasks on either the request to a resource,or on the response from a
-resource, or both.
+HTTP request and response filter for NodeJS.It is an implementation of the filter design pattern.
+```
 
+
+    +++++++  req  +++++++++++        +++++++++++      +++++++++++       ++++++++++++++++++++
+    | req | ----> |         |  --->  |         | ---> |         | --->  |                  |
+--> | res |  res  | filter1 |        | filter2 |      | filterN |       | business handler | 
+    +++++++ <---- |         |  <---  |         | <--- |         | <---  |                  |  
+                  +++++++++++        +++++++++++      +++++++++++       ++++++++++++++++++++
+             
+```
 ## Install
 
 ```shell
