@@ -1,6 +1,6 @@
 {
   "name": "@cloudgyb/http-filter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/cloudgyb/http-filter",
   "description": "A filter is an object that performs filtering tasks on either the request to a resource,or on the response from a resource, or both.",
   "main": "src/index.js",
